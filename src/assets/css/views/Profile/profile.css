@@ -1,0 +1,52 @@
+.profile{
+    margin-top:44px;
+    font-size: 14px;
+}
+.nav-bar {
+    background-color: var(--color-tint);
+    font-weight: bold;
+    color: #fff;
+}
+.head{
+    text-align: center;
+    padding: 20px 0 15px;
+}
+.head img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #fff8d3;
+    background-color: #ff9799;
+}
+.head .name{
+    margin:10px 0;
+}
+.order{
+    display: flex;
+    text-align: center;
+}
+.order .order-item{
+    flex:1;
+    border-right: 1px solid #eeeeee;
+}
+.order .order-item img{
+    width: 28px;
+    height: 28px;
+}
+.selection{
+    margin-top:10px;
+}
+.selection .selection-item{
+    padding: 10px 15px;
+    line-height: 30px;
+
+}
+.selection .selection-item img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.selection .selection-item span{
+    margin-left: 10px;
+    vertical-align: middle;
+}
